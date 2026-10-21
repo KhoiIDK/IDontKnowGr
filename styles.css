@@ -44,7 +44,7 @@ main {
 
 /* Hero Banner on Home Page */
 .hero-banner {
-    background-image: url('images/banner.jpg');
+    background-image: url();
     background-size: cover;
     color: white;
     text-align: center;
@@ -94,3 +94,25 @@ footer {
 footer a {
     color: #66b2ff;
 }
+/*This is for about.html */
+.studentid {
+    color: rgb(173, 12, 12);
+}
+.grouphoto {
+    border: ;
+}
+table {
+    margin-top: 10px;
+}
+thead, td {
+
+}
+tr :hover {
+    color: #66b2ff;
+}
+/*This is for apply.html */
+
+/*This is for index.html */
+
+/*This is for jobs.html */
+
