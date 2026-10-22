@@ -1,4 +1,4 @@
-/* Basic Page Setup */
+    /* Basic Page Setup */
 body {
     font-family: Calibri, sans-serif;
     margin: 0;
@@ -11,27 +11,55 @@ body {
 header {
     background-color: #003366;
     color: white;
-    padding: 15px;
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
 .logo {
-    width: 50px;
-    vertical-align: middle;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 nav {
-    margin-top: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
 }
 
-nav a {
-    color: white;
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 25px;
+}
+
+.nav-links a {
     text-decoration: none;
-    margin-right: 15px;
-    font-weight: bold;
+    color: white;
+    font-weight: 500;
+    transition: 0.3s;
+    padding: 5px 10px;
+    border-radius: 4px;
 }
 
-nav a:hover {
-    text-decoration: underline;
+.nav-links a:hover {
+    background-color: #14a7dc;
+    color: #fff;
+}
+
+h1 {
+    color: #003366;
+    text-align: center;
 }
 
 /* Main Content Area */
