@@ -60,14 +60,14 @@
 
             <p>
                 <label for="phone_num">Phone number:</label>
-                <input type="tel" id="phone_num" name="phone_num" pattern="^[0-9]{8,12}$" size="40" required="required"> 
+                <input type="tel" id="phone_num" name="phone_num" pattern="^[0-9]{8,12}$" size="40" required="required" maxlength="40"> 
             </p>
         </fieldset>
 
         <fieldset>
             <legend>Gender</legend>
-            <p><input type="radio" name="gender" id="male" value="Male"><label for="male">Male</label> <input type="radio" name="gender" id="female" value="female"><label for="female">Female</label>
-            <input type="radio" name="gender" id="not_said" value="not_said"> <label for="not_said">Prefer not to say</label>
+            <p><input type="radio" name="gender" id="male" value="Male" required="required"><label for="male" >Male</label> <input type="radio" name="gender" id="female" value="female" required="required"><label for="female">Female</label>
+            <input type="radio" name="gender" id="not_said" value="not_said" required="required"> <label for="not_said">Prefer not to say</label>
             </p>
         </fieldset>
 
@@ -88,27 +88,27 @@
     </p>
 
     <p>
-        <input type="checkbox" id="skill_smart_grid" name="skills[]" value="Smart_Grid_Storage">
+        <input type="checkbox" id="skill_smart_grid" name="skills[]" value="Smart_Grid_Storage" >
         <label for="skill_smart_grid">Smart Grid &amp; Battery Energy Storage (BESS)</label>
     </p>
 
     <p>
-        <input type="checkbox" id="skill_scada" name="skills[]" value="SCADA_EMS">
+        <input type="checkbox" id="skill_scada" name="skills[]" value="SCADA_EMS" >
         <label for="skill_scada">SCADA &amp; Energy Management Systems (EMS)</label>
     </p>
 
     <p>
-        <input type="checkbox" id="skill_carbon" name="skills[]" value="Carbon_Accounting">
+        <input type="checkbox" id="skill_carbon" name="skills[]" value="Carbon_Accounting" >
         <label for="skill_carbon">Carbon Footprint &amp; Emission Tracking</label>
     </p>
 
     <p>
-        <input type="checkbox" id="skill_engagement" name="skills[]" value="Public_Engagement">
+        <input type="checkbox" id="skill_engagement" name="skills[]" value="Public_Engagement" >
         <label for="skill_engagement">Clean Energy Public Engagement &amp; Outreach</label>
     </p>
 
     <p>
-        <input type="checkbox" id="skill_other" name="skills[]" value="Other">
+        <input type="checkbox" id="skill_other" name="skills[]" value="Other" >
         <label for="skill_other">Other skills</label>
     </p>
 
