@@ -148,6 +148,17 @@ tr :hover {
     color: #66b2ff;
 }
 /*This is for apply.html */
+/* Mặc định ẩn textarea */
+#other_skill_text {
+    display: none;
+}
+
+/* Khi tick vào checkbox: hiện textarea và ép nó xuống dòng riêng (display: block) */
+#skill_other:checked ~ #other_skill_text {
+    display: block;
+    margin-top: 10px;
+    margin-left: 25px; /* (Tùy chọn) Thụt lề vào trong cho thẳng hàng với chữ */
+}
 
 /*This is for index.html */
 
