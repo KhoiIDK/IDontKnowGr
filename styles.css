@@ -161,6 +161,18 @@ tr :hover {
 }
 
 /*This is for index.html */
+h1 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+nav {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+}
+
 
 /*This is for jobs.html */
 
