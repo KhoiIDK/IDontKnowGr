@@ -159,6 +159,28 @@ tr :hover {
     margin-top: 10px;
     margin-left: 25px; /* (Tùy chọn) Thụt lề vào trong cho thẳng hàng với chữ */
 }
+/*button submit*/
+.button_submit {
+    display: inline-block;
+    background-color: #003366;
+    color: #ffffff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    margin-top: 15px;
+    box-shadow: 0 4px 6px rgba(0, 51, 102, 0.2);
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+}
+.button_submit:hover {
+    background-color: #14a7dc;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(20, 167, 220, 0.35);
+}
 
 /*This is for index.html */
 
