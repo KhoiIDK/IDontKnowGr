@@ -167,12 +167,13 @@ h1 {
     font-weight: bold;
 }
 
-nav {
-    color: white;
-    font-size: 2em;
-    font-weight: bold;
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50%;
 }
-
 
 /*This is for jobs.html */
 
