@@ -160,26 +160,28 @@ tr :hover {
     margin-left: 25px; /* (Tùy chọn) Thụt lề vào trong cho thẳng hàng với chữ */
 }
 
-/*This is for index.html */
-h1 {
-    color: white;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    padding: 5px;
-    width: 150px;
-    border-radius: 50%;
-}
-
 
 /*This is for index.html */
 
-.index-header {
-    padding: 20px;
+body:has(#index-content) {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.index-intro {
+    background-image: linear-gradient(
+        rgba(244, 244, 244, 0.9),
+        rgba(244, 244, 244, 0.9)
+    ), url("images/background.jpg");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 30px;
 }
 
 .index-brand {
@@ -196,33 +198,44 @@ img {
 }
 
 .index-brand h1 {
-    color: white;
+    color: #003366;
     text-align: left;
     margin: 0;
 }
 
 .index-brand h2 {
-    color: white;
+    color: #003366;
     margin: 5px 0;
-}
-
-.index-header nav {
-    justify-content: center;
-}
-
-.index-header .nav-links {
-    padding: 0;
-    margin: 15px 0;
-    gap: 25px;
-}
-
-.index-header .nav-links li {
-    margin-left: 0;
 }
 
 .index-search {
     text-align: center;
     margin-top: 15px;
+}
+
+#index-content {
+    background-color: white;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+#index-content h2 {
+    color: #003366;
+}
+
+#index-content li {
+    margin-bottom: 10px;
+}
+
+#index-content table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#index-content th,
+#index-content td {
+    padding: 10px;
 }
 
 @media (max-width: 600px) {
@@ -235,9 +248,13 @@ img {
         text-align: center;
     }
 
-    .index-header .nav-links {
-        flex-wrap: wrap;
-        justify-content: center;
+    .index-intro {
+        padding: 15px;
+    }
+
+    #index-content {
+        padding: 15px;
+        overflow-x: auto;
     }
 }
 
