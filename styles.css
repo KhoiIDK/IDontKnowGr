@@ -126,6 +126,7 @@ footer a {
 .studentid {
     color: rgb(173, 12, 12);
 }
+
 .groupphoto {
     width: 100%;
     max-width: 400px;
@@ -146,6 +147,19 @@ footer a {
 
 tr :hover {
     color: #66b2ff;
+}
+
+.highlightbox {
+    background-color: #f8fafc;
+    border-left: 4px solid #14a7dc;
+    padding: 10px 15px;
+    margin: 8px 0 15px 0; 
+    margin-left: 0; 
+    border-radius: 0 6px 6px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+}
+.highlightbox p {
+    margin: 4px 0;
 }
 /*This is for apply.html */
 /* Form Container - Spread fully across the content area */
@@ -564,14 +578,6 @@ body:has(#index-content) {
         overflow-x: auto;
     }
 }
-
-
-
-
-
-
-
-
 
 /*This is for jobs.html */
 
